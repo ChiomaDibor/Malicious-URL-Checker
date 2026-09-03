@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Malicious URL Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Malicious URL Checker</h1>
+
+        <p>
+            Enter a URL to check whether its domain is on our
+            known malicious-domain list.
+        </p>
+
+        <input
+            type="text"
+            id="urlInput"
+            placeholder="Enter a URL e.g. https://example.com"
+        >
+
+        <button id="checkButton">
+            Check URL
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
